@@ -1,8 +1,8 @@
 #### **Python基础2**
+
 * 模块
 
-```
-
+```py
 sys.path 
 包含了一个 Python 解释器自动查找所需模块的路径的列表
 
@@ -36,11 +36,9 @@ __all__ = ["echo", "surround", "reverse"]
 你只会导入包里面这三个子模块。
 ```
 
-
 * 标准库
 
-```
-
+```py
 import os
 
 >>> import shutil
@@ -93,11 +91,9 @@ timeit
 doctest
 ```
 
-
 * 面向对象
 
-```
-
+```py
 类的继承机制允许多个基类，
 派生类可以覆盖基类中的任何方法，
 方法中可以调用基类中的同名方法。
@@ -105,7 +101,7 @@ doctest
 // 构造方法
 def __init__(self):
     self.data = []
-    
+
 self代表类的实例，而非类，代表当前对象的地址，
 而 self.class 则指向类
 
@@ -136,14 +132,11 @@ __mul__: 乘运算
 __div__: 除运算
 __mod__: 求余运算
 __pow__: 称方
-
 ```
-
 
 * 正则表达式
 
-```
-
+```py
 // match与search的区别
 re.match只匹配字符串的开始，
 如果字符串开始不符合正则表达式，则匹配失败，函数返回None；
@@ -152,10 +145,10 @@ re.match只匹配字符串的开始，
 re.sub用于替换字符串中的匹配项
 
 // 正则表达式修饰符
-re.I	 使匹配对大小写不敏感
-re.L	做本地化识别（locale-aware）匹配
+re.I     使匹配对大小写不敏感
+re.L    做本地化识别（locale-aware）匹配
 re.M   多行匹配，影响 ^ 和 $
-re.S	使 . 匹配包括换行在内的所有字符
+re.S    使 . 匹配包括换行在内的所有字符
 re.U  
 re.X
 
@@ -163,22 +156,20 @@ re.X
 标点符号只有被转义时才匹配自身，否则它们表示特殊的含义
 
 // 实例
-[Pp]ython	匹配 "Python" 或 "python"
-rub[ye]	匹配 "ruby" 或 "rube"
-[aeiou]	匹配中括号内的任意一个字母
-[0-9]	匹配任何数字。类似于 [0123456789]
-[a-z]	匹配任何小写字母
-[A-Z]	匹配任何大写字母
-[a-zA-Z0-9]	匹配任何字母及数字
-[^aeiou]	除了aeiou字母以外的所有字符
-[^0-9]	匹配除了数字外的字符
+[Pp]ython    匹配 "Python" 或 "python"
+rub[ye]    匹配 "ruby" 或 "rube"
+[aeiou]    匹配中括号内的任意一个字母
+[0-9]    匹配任何数字。类似于 [0123456789]
+[a-z]    匹配任何小写字母
+[A-Z]    匹配任何大写字母
+[a-zA-Z0-9]    匹配任何字母及数字
+[^aeiou]    除了aeiou字母以外的所有字符
+[^0-9]    匹配除了数字外的字符
 ```
-
 
 * 多线程
 
-```
-
+```py
 使用线程可以把占据长时间的程序中的任务放到后台去处理
 
 线程可以被抢占（中断）
@@ -212,11 +203,9 @@ acquire 方法和 release 方法
 Queue 模块中提供了同步的、线程安全的队列类，包括FIFO（先入先出)队列Queue，LIFO（后入先出）队列LifoQueue，和优先级队列 PriorityQueue。
 ```
 
-
 * CGI编程
 
-```
-
+```py
 Apache 支持CGI 配置
 
 修改文件权限为 755
@@ -230,12 +219,9 @@ Apache 支持CGI 配置
 // 文件上传实例
 ```
 
-
-
 * 网络编程
 
-```
-
+```py
 两个级别访问的网络服务
 低级别的网络服务支持基本的 Socket，
 它提供了标准的 BSD Sockets API，
@@ -250,14 +236,14 @@ Socket
 使主机间或者一台计算机上的进程间可以通讯。
 
 // Python Internet 模块
-HTTP	网页访问	80	httplib, urllib, xmlrpclib
-NNTP	阅读和张贴新闻文章，俗称为"帖子"	119	nntplib
-FTP	文件传输	20	ftplib, urllib
-SMTP	发送邮件	25	smtplib
-POP3	接收邮件	110	poplib
-IMAP4	获取邮件	143	imaplib
-Telnet	命令行	23	telnetlib
-Gopher	信息查找	70	gopherlib, urllib
+HTTP    网页访问    80    httplib, urllib, xmlrpclib
+NNTP    阅读和张贴新闻文章，俗称为"帖子"    119    nntplib
+FTP    文件传输    20    ftplib, urllib
+SMTP    发送邮件    25    smtplib
+POP3    接收邮件    110    poplib
+IMAP4    获取邮件    143    imaplib
+Telnet    命令行    23    telnetlib
+Gopher    信息查找    70    gopherlib, urllib
 
 // SMTP发送邮件
 SMTP（Simple Mail Transfer Protocol）
@@ -267,17 +253,16 @@ SMTP（Simple Mail Transfer Protocol）
 // 在 HTML 文本中添加图片
 ```
 
-
 * XML解析与JSON
 
-```
-
+```py
 python有三种方法解析XML，
 SAX，DOM，以及ElementTree:
 
 SAX用事件驱动模型，
 通过在解析XML的过程中触发一个个的事件
 并调用用户定义的回调函数来处理XML文件。
-
 ```
+
+
 

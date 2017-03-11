@@ -1,8 +1,8 @@
 #### **Python数据结构**
+
 * 列表
 
-```
-
+```py
 a = [66.25, 333, 333, 1, 1234.5]
 print(a.count(333), a.count(66.25), a.count('x'))
 # 2 1 0
@@ -29,11 +29,9 @@ append pop
 在列表里插入或者从头部弹出速度却不快
 ```
 
-
 * 列表推导式
 
-```
-
+```py
 从序列创建列表的简单途径
 
 如果希望表达式推导出一个元组，就必须使用括号
@@ -53,11 +51,9 @@ append pop
 [8, 12, -54]
 ```
 
-
 * 嵌套列表解析
 
-```
-
+```py
 >>> [[row[i] for row in matrix] for i in range(4)]
 [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 
@@ -73,11 +69,9 @@ append pop
 [[1, 5, 9], [2, 6, 10], [3, 7, 11], [4, 8, 12]]
 ```
 
-
 * 元组
 
-```
-
+```py
 >>> t = 12345, 54321, 'hello!'
 >>> t[0]
 12345
@@ -89,29 +83,23 @@ append pop
 ((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
 ```
 
-
 * 集合
 
-```
-
+```py
 >>> a = {x for x in 'abracadabra' if x not in 'abc'}
 >>> a
 {'r', 'd'}
 ```
 
-
 * 字典
 
-```
+```py
 s
-
 ```
-
 
 * 遍历技巧
 
-```
-
+```py
 >>> for i, v in enumerate(['tic', 'tac', 'toe']):
 ...     print(i, v)
 ...
@@ -128,4 +116,6 @@ What is your name?  It is lancelot.
 What is your quest?  It is the holy grail.
 What is your favorite color?  It is blue.
 ```
+
+
 
