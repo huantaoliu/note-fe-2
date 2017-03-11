@@ -2,6 +2,7 @@
 * 安装
 	* [下载-win](http://rubyinstaller.org/downloads/)
     * [rubywin-下载](http://suke.my.coocan.jp/ruby/rubywin/index_e.html)
+    
 ```
 
 // 测试
@@ -34,6 +35,7 @@ nil
 ------------
 
 * 引子
+
 ```
 
 纯粹的面向对象程序设计的
@@ -50,6 +52,7 @@ Ruby 有丰富的内置函数，可以直接在 Ruby 脚本中使用
 ------------
 * 命令行
 	* [菜鸟-命令行手册](http://www.runoob.com/ruby/ruby-command-line-options.html)
+	
 ```
 
 -a	与 -n 或 -p 一起使用时，可以打开自动拆分模式(auto split mode)
@@ -61,6 +64,7 @@ Ruby 有丰富的内置函数，可以直接在 Ruby 脚本中使用
 
 
 * 语法
+
 ```
 
 // 环境变量
