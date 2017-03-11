@@ -1,5 +1,6 @@
 #### **粒子系统**
 * 粒子系统
+
 ```
 
 模拟雨滴和雪花
@@ -15,6 +16,7 @@ ParticleBasicMaterial 贴图
 
 
  * 精灵 THREE.Sprite
+ 
 ```
 
 HUD Head-Up display 平视显示器
@@ -26,6 +28,7 @@ HUD Head-Up display 平视显示器
 
 * 注意点
 	* [Blender](https://www.blender.org/)
+	
 ```
 
 粒子来自于几何体的顶点
@@ -40,6 +43,7 @@ blender导入three扩展
 
 * 几何体
 	* [wiki](http://en.wikipedia.org/wiki/Torus_knot)
+	
 ```
 
 平面 PlaneGeometry
@@ -71,6 +75,7 @@ radius detail
 
 * 复杂几何体
 	* [typeface.js](http://typeface.neocracy.org/)提供的字体
+	
 ```
 
 凸面体 ConvexGeometry
@@ -93,6 +98,7 @@ TrueType/OpenType → js库
 
 * 二元操作组合网格
 	* THREE扩展库[THREEBSP](https://github.com/skalnik.ThreeBSP)
+	
 ```
 
 coffee-script 咖啡脚本 更友好的js变体
@@ -114,6 +120,7 @@ subtract 相减
 * 几何体组合和合并
 * 从外部资源中加载几何体
 	*   [蛋白质数据银行](http://www.rcsb.org/)
+	
 ```
 
 // 格式

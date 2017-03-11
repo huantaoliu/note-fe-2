@@ -1,6 +1,7 @@
 #### **材质**
 * 材质
 	* [例子](https://www.shadertoy.com/view/4dXGR4)
+	
 ```
 
 网格基础材质 MeshBasicMaterial
@@ -32,6 +33,7 @@ shininess 高光部分的亮度
 
 
 * 材质属性
+
 ```
 
 基础属性
@@ -41,6 +43,7 @@ shininess 高光部分的亮度
 
 
 *  纹理
+
 ```
 
 二维高频细节
@@ -52,6 +55,7 @@ shininess 高光部分的亮度
 
 
 * 材质
+
 ```
 
 color = Normal
@@ -61,6 +65,7 @@ Normal = color 贴图
 
 * UV工具 美工
 * 纹理
+
 ```
 
 凹凸贴图和法线贴图 添加深度和细节 后者更细致
@@ -76,6 +81,7 @@ HTML5画布和视频元素作为纹理输入
 
 
 * 纹理的用法
+
 ```
 
 定义网格的颜色
@@ -86,6 +92,7 @@ HTML5画布和视频元素作为纹理输入
 * 注意
 	* [关于UV贴图](http://stackoverflow.com/questions/15137695/three-js-lightmap-causes-an-error-webglrenderingcontext-gl-error-gl-invalid-op)
     * [环境贴图示例图片来源](http://www.humus.name/index.php?page=Textures)
+    
 ```
 
 最好使用正方形图片 ∵mipmap
@@ -108,6 +115,7 @@ minFilter LinearMipMapLinearFilter
 * 纹理的高级用途
 	* [literally库](http://literallycanvas.com/) 创建交互式的画布
 	+ [Perlin噪音](https://github.com/wwwtyro/perlin.js)
+	
 ```
 
 定制UV映射 指定哪一部分显示在物体表面
@@ -117,6 +125,7 @@ minFilter LinearMipMapLinearFilter
 
 
 * 渲染后期处理
+
 ```
 
 基本后期处理通道
@@ -139,6 +148,7 @@ fragmentShader 决定每个像素的颜色
 
 
 * 后期处理通道
+
 ```
 
 BloomPass
@@ -153,6 +163,7 @@ TexturePass
 
 
 * basic-vertex-shader
+
 ```
 
 Use this as displacement:
@@ -162,6 +173,7 @@ Show this as [example](http://www.clicktorelease.com/code/perlin/explosion.html)
 
 
 * basic-fragment-shader
+
 ```
 Create something like this:
 
@@ -193,6 +205,7 @@ gl_FragColor = vec4( vec3( color, color * 0.5, sin( color + time / 3.0 ) * 0.75 
 ```
 
 * 后期处理注意
+
 ```
 
 不是所有通道的结果都会输出到屏幕
@@ -206,6 +219,7 @@ EffectComposer有多个RenderPass clear设为false
   + [Physijs](http://chandlerprall.github.io/Physijs/)
   + 另一个著名的物理引擎 [ammo.js]( https://github.com/kripken/ammo.js/)
   + [网页线程web workers](https://html.spec.whatwg.org/multipage/workers.html)
+  
 ```
 
 后台线程中执行计算
@@ -233,6 +247,7 @@ _dirtyPosition _dirtyRotation
 
 
 * OBJ文件
+
 ```
 
 基于ASCII的三维静态模型存储格式

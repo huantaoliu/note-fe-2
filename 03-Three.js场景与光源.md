@@ -1,6 +1,7 @@
 #### **场景与光源**
 * 让IE支持webGL
 	*  [iewebgl](http://iewebgl.com/)
+	
 ```
 
 Google Chrome Frame
@@ -9,6 +10,7 @@ Google Chrome Frame
 
 * 编辑器
 	* [c9.io](http://c9.io)
+	
 ```
 
 WebStrom支持git
@@ -16,6 +18,7 @@ WebStrom支持git
 
 
 * 服务器
+
 ```
 
 Python -- Unix/Mac
@@ -29,6 +32,7 @@ WebStrom
 
 
 * 三维对象
+
 ```
 
 Plane 平面
@@ -40,6 +44,7 @@ Axes 轴 有助于调试
 
 
 * 不推荐Canvas和SVG？
+
 ```
 
 十分耗费CPU资源
@@ -48,6 +53,7 @@ Axes 轴 有助于调试
 
 
 * 一些与场景有关的函数
+
 ```
 
 Scene.Add()
@@ -58,6 +64,7 @@ Sne.getChildByName()
 
 
 * 光的类型
+
 ```
 
 AmbientLight

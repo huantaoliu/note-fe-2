@@ -1,6 +1,7 @@
 #### **动画与相机**
 * 基础动画
 	* [Tween.js](https://github.com/sole/tween.js/)
+	
 ```
 
 位置
@@ -10,6 +11,7 @@
 
 
 * 移动相机
+
 ```
 
 相机控件
@@ -47,6 +49,7 @@ F 下移
 
 
 * 变形和蒙皮
+
 ```
 
 变形动画 定义几何体之间的过渡
@@ -60,6 +63,7 @@ SkinnedMesh
 
 * 加载外部动画
 	+ [转化](http://oos.moxiecode.com/js_webgl/md2_converter/)
+	
 ```
 
 带有JSON导出器的Blender
@@ -69,6 +73,7 @@ MD2模型 老雷神引擎使用的简单格式 保存角色动画的文件
 
 
 * Blender创建动画注意
+
 ```
 
 模型中的顶点至少要在一个顶点组中
