@@ -10,7 +10,7 @@
 ------------
 
 * 安装
-	* [Python下载](https://www.python.org/downloads/windows/)
+    * [Python下载](https://www.python.org/downloads/windows/)
     * [第三方库安装-非官方](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
     
 ```
@@ -46,7 +46,6 @@ pip3 freeze // 此命令显示安装过哪些
     
     
 ```
-
 注意Python3需要另外配，并不兼容
 
 // pylinter插件 
