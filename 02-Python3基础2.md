@@ -1,5 +1,6 @@
 #### **Python基础2**
 * 模块
+
 ```
 
 sys.path 
@@ -37,6 +38,7 @@ __all__ = ["echo", "surround", "reverse"]
 
 
 * 标准库
+
 ```
 
 import os
@@ -93,6 +95,7 @@ doctest
 
 
 * 面向对象
+
 ```
 
 类的继承机制允许多个基类，
@@ -138,6 +141,7 @@ __pow__: 称方
 
 
 * 正则表达式
+
 ```
 
 // match与search的区别
@@ -172,6 +176,7 @@ rub[ye]	匹配 "ruby" 或 "rube"
 
 
 * 多线程
+
 ```
 
 使用线程可以把占据长时间的程序中的任务放到后台去处理
@@ -209,6 +214,7 @@ Queue 模块中提供了同步的、线程安全的队列类，包括FIFO（先�
 
 
 * CGI编程
+
 ```
 
 Apache 支持CGI 配置
@@ -227,6 +233,7 @@ Apache 支持CGI 配置
 
 
 * 网络编程
+
 ```
 
 两个级别访问的网络服务
@@ -262,6 +269,7 @@ SMTP（Simple Mail Transfer Protocol）
 
 
 * XML解析与JSON
+
 ```
 
 python有三种方法解析XML，

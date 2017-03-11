@@ -1,5 +1,6 @@
 #### **Python数据结构**
 * 列表
+
 ```
 
 a = [66.25, 333, 333, 1, 1234.5]
@@ -30,6 +31,7 @@ append pop
 
 
 * 列表推导式
+
 ```
 
 从序列创建列表的简单途径
@@ -53,6 +55,7 @@ append pop
 
 
 * 嵌套列表解析
+
 ```
 
 >>> [[row[i] for row in matrix] for i in range(4)]
@@ -72,6 +75,7 @@ append pop
 
 
 * 元组
+
 ```
 
 >>> t = 12345, 54321, 'hello!'
@@ -87,6 +91,7 @@ append pop
 
 
 * 集合
+
 ```
 
 >>> a = {x for x in 'abracadabra' if x not in 'abc'}
@@ -96,13 +101,15 @@ append pop
 
 
 * 字典
-```
 
+```
+s
 
 ```
 
 
 * 遍历技巧
+
 ```
 
 >>> for i, v in enumerate(['tic', 'tac', 'toe']):

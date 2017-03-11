@@ -12,6 +12,7 @@
 * 安装
 	* [Python下载](https://www.python.org/downloads/windows/)
     * [第三方库安装-非官方](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
+    
 ```
 
 // python安装注意事项
@@ -42,6 +43,7 @@ pip3 freeze // 此命令显示安装过哪些
 	* [pylinter下载](https://github.com/biermeester/Pylinter)
     * <del>[pylinter路径问题](https://www.baidu.com/link?url=yEoP4X-gVdIPEvq6qV_qvkOpBUCcl2lFFq-Ivn4mn4vlAqmv5DtHYWbJgZG-VxY981sMt7z3Vp2pKpdulS6i7a&wd=&eqid=c46c4cf000149f3a0000000458b16c19)</del>
     * [Python编译系统配置](http://blog.csdn.net/tstbdt/article/details/44490061)
+    
 ```
 
 注意Python3需要另外配，并不兼容
@@ -55,6 +57,7 @@ Python PEP8 Autoformat 插件 自动格式化 CTRL+SHIFT+R
 ------------
 
 * 基础
+
 ```
 
 解释型、面向对象、动态数据类型的高级程序设计语言
@@ -95,6 +98,7 @@ CTRL+C 来退出当前的无限循环
 
 
 * 日期与时间
+
 ```
 
 转换日期格式是一个常见的功能
@@ -115,6 +119,7 @@ datetime模块
 
 
 * 语法
+
 ```
 
 // python保留字
@@ -175,6 +180,7 @@ pass 不做任何事情，一般用做占位语句
 
 
 * 数据类型
+
 ```
 
 // Python3 中有六个标准的数据类型：
@@ -260,10 +266,12 @@ string、list和tuple都属于sequence（序列）。
 在同一个字典中，键(key)必须是唯一的。
 
 // 数据类型转化
+
 ```
 
 
 * 字符串
+
 ```
 
 字符串是不可变的
@@ -296,6 +304,7 @@ paragraph = """这是一个段落，
 
 
 * 运算符
+
 ```
 
 // 赋值运算符
@@ -318,6 +327,7 @@ is not
 
 
 * 迭代器和生成器
+
 ```
 
 迭代是Python最强大的功能之一，
@@ -334,6 +344,7 @@ iter() 和 next()。
 
 
 * 函数
+
 ```
 
 #!/usr/bin/python3
@@ -377,6 +388,7 @@ print("相加后的值为 : ", sum(20, 20))
 
 
 * 错误与异常
+
 ```
 
 语法错误和异常
@@ -413,6 +425,7 @@ with语句
 
 * 输入输出
 	* [runoob-输入输出](http://www.runoob.com/python3/python3-inputoutput.html)
+	
 ```
 
 表达式语句和 print() 函数
@@ -436,6 +449,7 @@ pickle 模块
 
 
 * 文件
+
 ```
 
 os 模块提供了非常丰富的方法用来处理文件和目录
