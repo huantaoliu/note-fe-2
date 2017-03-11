@@ -31,7 +31,7 @@ nil
 ```
 
 
-* * * * *
+------------
 
 * 引子
 ```
@@ -47,7 +47,7 @@ Ruby 有丰富的内置函数，可以直接在 Ruby 脚本中使用
 ```
 
 
-* * * * *
+------------
 * 命令行
 	* [菜鸟-命令行手册](http://www.runoob.com/ruby/ruby-command-line-options.html)
 ```

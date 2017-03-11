@@ -7,7 +7,7 @@ webVR = web + VR
 ```
 
 
-* * * * *
+------------
 * 书单
 ```
 
@@ -31,7 +31,7 @@ Learning Three.js:The JavaScript 3D Library for WebGL
 ```
 
 
-* * * * *
+------------
 
 * [WebGL与Canvas的暧昧关系](http://www.zhangxinxu.com/wordpress/2011/10/html5-canvas-webgl-css-shaders-glsl%E7%9A%84%E6%9A%A7%E6%98%A7%E5%85%B3%E7%B3%BB/)
 	*  [张鑫旭 - Canvas的博客](http://www.zhangxinxu.com/wordpress/category/graphic/canvas-graphic/)

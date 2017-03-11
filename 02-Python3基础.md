@@ -7,7 +7,7 @@
 ```
 
 
-* * * * *
+------------
 
 * 安装
 	* [Python下载](https://www.python.org/downloads/windows/)
@@ -52,7 +52,7 @@ Python PEP8 Autoformat 插件 自动格式化 CTRL+SHIFT+R
 ```
 
 
-* * * * *
+------------
 
 * 基础
 ```
