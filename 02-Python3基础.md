@@ -40,9 +40,10 @@ pip3 freeze // 此命令显示安装过哪些
 
 
 * [Sublime Text 3 python 配置](http://www.cnblogs.com/waising/articles/3466120.html)
-	* [pylinter下载](https://github.com/biermeester/Pylinter)
+    * [pylinter下载](https://github.com/biermeester/Pylinter)
     * <del>[pylinter路径问题](https://www.baidu.com/link?url=yEoP4X-gVdIPEvq6qV_qvkOpBUCcl2lFFq-Ivn4mn4vlAqmv5DtHYWbJgZG-VxY981sMt7z3Vp2pKpdulS6i7a&wd=&eqid=c46c4cf000149f3a0000000458b16c19)</del>
     * [Python编译系统配置](http://blog.csdn.net/tstbdt/article/details/44490061)
+    
     
 ```
 
