@@ -1,15 +1,18 @@
 #### **Python入门**
 * [廖雪峰-Python教程](http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)
-~~~
+```
 
-~~~
+
+```
+
 
 * * * * *
 
 * 安装
 	* [Python下载](https://www.python.org/downloads/windows/)
     * [第三方库安装-非官方](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
-~~~
+```
+
 // python安装注意事项
 可执行版本
 for all users
@@ -31,24 +34,28 @@ cd /d folder
 pip install xxx.whl
 
 pip3 freeze // 此命令显示安装过哪些
-~~~
+```
+
 
 * [Sublime Text 3 python 配置](http://www.cnblogs.com/waising/articles/3466120.html)
 	* [pylinter下载](https://github.com/biermeester/Pylinter)
     * <del>[pylinter路径问题](https://www.baidu.com/link?url=yEoP4X-gVdIPEvq6qV_qvkOpBUCcl2lFFq-Ivn4mn4vlAqmv5DtHYWbJgZG-VxY981sMt7z3Vp2pKpdulS6i7a&wd=&eqid=c46c4cf000149f3a0000000458b16c19)</del>
     * [Python编译系统配置](http://blog.csdn.net/tstbdt/article/details/44490061)
-~~~
+```
+
 注意Python3需要另外配，并不兼容
 
 // pylinter插件 
 SublimeCodeIntel 插件
 Python PEP8 Autoformat 插件 自动格式化 CTRL+SHIFT+R 
-~~~
+```
+
 
 * * * * *
 
 * 基础
-~~~
+```
+
 解释型、面向对象、动态数据类型的高级程序设计语言
 结合了解释性、编译性、互动性和面向对象的脚本语言
 
@@ -83,10 +90,12 @@ $ python -h
 CTRL+C 来退出当前的无限循环
 
 在 while … else 在条件语句为 false 时执行 else 的语句块：
-~~~
+```
+
 
 * 日期与时间
-~~~
+```
+
 转换日期格式是一个常见的功能
 
 time 和 calendar 模块
@@ -101,10 +110,12 @@ datetime模块
 日期格式化 strftime
 
 时间日期格式化符号
-~~~
+```
+
 
 * 语法
-~~~
+```
+
 // python保留字
 import keyword
 keyword.kwlist 
@@ -159,10 +170,12 @@ import sys; x = 'runoob'; sys.stdout.write(x + '\n')
 Python pass是空语句，
 是为了保持程序结构的完整性。
 pass 不做任何事情，一般用做占位语句
-~~~
+```
+
 
 * 数据类型
-~~~
+```
+
 // Python3 中有六个标准的数据类型：
 Number
 String
@@ -246,10 +259,12 @@ string、list和tuple都属于sequence（序列）。
 在同一个字典中，键(key)必须是唯一的。
 
 // 数据类型转化
-~~~
+```
+
 
 * 字符串
-~~~
+```
+
 字符串是不可变的
 
 Python 没有单独的字符类型，
@@ -276,10 +291,12 @@ paragraph = """这是一个段落，
 如 r"this is a line with \n" 则\n会显示，并不是换行
 
 // 字符串内建函数
-~~~
+```
+
 
 * 运算符
-~~~
+```
+
 // 赋值运算符
 c **= a 等效于 c = c ** a
 c //= a 等效于 c = c // a
@@ -296,10 +313,12 @@ not in
 // 身份运算符
 is 
 is not
-~~~
+```
+
 
 * 迭代器和生成器
-~~~
+```
+
 迭代是Python最强大的功能之一，
 是访问集合元素的一种方式。
 
@@ -310,10 +329,12 @@ iter() 和 next()。
 // 生成器
 使用了 yield 的函数被称为生成器
 生成器就是一个迭代器
-~~~
+```
+
 
 * 函数
-~~~
+```
+
 #!/usr/bin/python3
 
 # 计算面积函数
@@ -351,10 +372,12 @@ sum = lambda arg1, arg2: arg1 + arg2;
 # 调用sum函数
 print("相加后的值为 : ", sum(10, 20))
 print("相加后的值为 : ", sum(20, 20))
-~~~
+```
+
 
 * 错误与异常
-~~~
+```
+
 语法错误和异常
 
 用户中断的信息会引发一个 
@@ -384,11 +407,13 @@ raise NameError('HiThere')
 
 // 预定清理行为
 with语句
-~~~
+```
+
 
 * 输入输出
 	* [runoob-输入输出](http://www.runoob.com/python3/python3-inputoutput.html)
-~~~
+```
+
 表达式语句和 print() 函数
 文件对象的 write() 方法
 str.format() // 推荐
@@ -406,9 +431,12 @@ from_what 的值,
 如果是 0 表示开头, 如果是 1 表示当前位置, 2 表示文件的结尾
 
 pickle 模块
-~~~
+```
+
 
 * 文件
-~~~
+```
+
 os 模块提供了非常丰富的方法用来处理文件和目录
-~~~
+```
+

@@ -167,7 +167,8 @@ truncateString("A-tisket a-tasket A green and yellow basket", 11);
 #### **10、Chunky Monkey**
 英文描述：Write a function that splits an array (first argument) into groups the length ofsize (second argument) and returns them as a two-dimensional array
 中文描述：对所给的数组，根据第二个参数将其化为二维数组，其中第二个参数为作为元素的数组的长度
-~~~
+```
+
 function chunkArrayInGroups(arr, size) {
 var num=Math.floor(arr.length/size);
 var remainder=arr.length%size;
@@ -186,7 +187,8 @@ arrTem.push(arr2);
 return arrTem;
 }
 chunkArrayInGroups(["a", "b", "c", "d"], 2);
-~~~
+```
+
 #### **11、Slasher Flick**
 英文描述：Return the remaining elements of an array after chopping off n elements from the head. The head means the beginning of the array, or the zeroth index.
 中文描述：对所给的数组，根据第二个参数进行截取操作，如果第二个参数大于数组的长度，则返回空数组，否则将返回第二个参数作为索引值之后的所有元素组成的数组
@@ -205,7 +207,8 @@ slasher([1, 2, 3], 2);
 #### **12、Mutations**
 英文描述：Return true if the string in the first element of the array contains all of the letters of the string in the second element of the array.
 中文描述：对所给的一个含有两个元素的数组，检查第二个元素的所有字母是否都在第一个元素中出现过，是返回true，否则返回false，其中忽略大小写。
-~~~
+```
+
 function mutation(arr) {
 var str=arr[0].toString().toLowerCase();
 var chArr=arr[1].toString().split("");
@@ -217,7 +220,8 @@ return false;
 return true;
 }
 mutation(["hello", "hey"]);
-~~~
+```
+
 
 #### **13、Falsy Bouncer**
 英文描述：Remove all falsy values from an array.
@@ -262,7 +266,8 @@ destroyer([1, 2, 3, 1, 2, 3], 2, 3);
 #### **15、Where do I belong**
 英文描述：Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted.
 中文描述：将一个数组按照大小顺序插入一个数组中，返回其应该在的索引值
-~~~
+```
+
 function getIndexToIns(arr, num) {
 arr.sort(function(a,b){return a-b;});
 var index=0;
@@ -274,7 +279,8 @@ index=i+1;
 return index;
 }
 getIndexToIns([40, 60], 50);
-~~~
+```
+
 
 #### **16、Caesars Cipher**
 英文描述：One of the simplest and most widely known ciphers is a Caesar cipher, also known as a shift cipher. In a shift cipher the meanings of the letters are shifted by some set amount.

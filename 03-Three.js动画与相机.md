@@ -1,14 +1,17 @@
 #### **动画与相机**
 * 基础动画
 	* [Tween.js](https://github.com/sole/tween.js/)
-~~~
+```
+
 位置
 旋转
 缩放
-~~~
+```
+
 
 * 移动相机
-~~~
+```
+
 相机控件
 第一人称控件 FirstPersonControls
 
@@ -40,31 +43,37 @@ F 下移
 轨道控件 模拟轨道中的卫星 OrbitControls
 路径控件 过山车... PathControls
 自定义路径 缓慢螺旋式上升
-~~~
+```
+
 
 * 变形和蒙皮
-~~~
+```
+
 变形动画 定义几何体之间的过渡
 MorphAnimMesh 变形动画网格
 parseAnimations() playAnimation(name, fps)
 骨骼动画 骨骼和蒙皮技术处理过渡
 如何从Blender中较好的导出数据
 SkinnedMesh
-~~~
+```
+
 
 * 加载外部动画
 	+ [转化](http://oos.moxiecode.com/js_webgl/md2_converter/)
-~~~
+```
+
 带有JSON导出器的Blender
 Collada模型
 MD2模型 老雷神引擎使用的简单格式 保存角色动画的文件
-~~~
+```
+
 
 * Blender创建动画注意
-~~~
+```
+
 模型中的顶点至少要在一个顶点组中
 Blender中顶点组的名字必须跟控制这个顶点组的骨头的名字相对应
 只有第一个action可以导出
 创建keyframes 关键帧名, 最好选择所有的骨头
 导出模型, 要保证模型处于静止状态。
-~~~
+```

@@ -1,7 +1,8 @@
 #### **Python操作数据库**
 * MySQL
 	* [PyMySQL](https://github.com/PyMySQL/PyMySQL)
-~~~
+```
+
 PyMySQL 连接数据库
 包含了 pure-Python MySQL 客户端库
 
@@ -16,4 +17,5 @@ $ pip install PyMySQL
 持久性（durability）
 
 // 错误处理
-~~~
+```
+

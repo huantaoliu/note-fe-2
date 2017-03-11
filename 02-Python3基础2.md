@@ -1,6 +1,7 @@
 #### **Python基础2**
 * 模块
-~~~
+```
+
 sys.path 
 包含了一个 Python 解释器自动查找所需模块的路径的列表
 
@@ -32,10 +33,12 @@ echo.echofilter(input, output, delay=0.7, atten=4)
 __all__ = ["echo", "surround", "reverse"]
 这表示当你使用from sound.effects import *这种用法时，
 你只会导入包里面这三个子模块。
-~~~
+```
+
 
 * 标准库
-~~~
+```
+
 import os
 
 >>> import shutil
@@ -86,10 +89,12 @@ timeit
 
 // 测试模块
 doctest
-~~~
+```
+
 
 * 面向对象
-~~~
+```
+
 类的继承机制允许多个基类，
 派生类可以覆盖基类中的任何方法，
 方法中可以调用基类中的同名方法。
@@ -129,10 +134,12 @@ __div__: 除运算
 __mod__: 求余运算
 __pow__: 称方
 
-~~~
+```
+
 
 * 正则表达式
-~~~
+```
+
 // match与search的区别
 re.match只匹配字符串的开始，
 如果字符串开始不符合正则表达式，则匹配失败，函数返回None；
@@ -161,10 +168,12 @@ rub[ye]	匹配 "ruby" 或 "rube"
 [a-zA-Z0-9]	匹配任何字母及数字
 [^aeiou]	除了aeiou字母以外的所有字符
 [^0-9]	匹配除了数字外的字符
-~~~
+```
+
 
 * 多线程
-~~~
+```
+
 使用线程可以把占据长时间的程序中的任务放到后台去处理
 
 线程可以被抢占（中断）
@@ -196,10 +205,12 @@ acquire 方法和 release 方法
 
 // 线程优先级队列
 Queue 模块中提供了同步的、线程安全的队列类，包括FIFO（先入先出)队列Queue，LIFO（后入先出）队列LifoQueue，和优先级队列 PriorityQueue。
-~~~
+```
+
 
 * CGI编程
-~~~
+```
+
 Apache 支持CGI 配置
 
 修改文件权限为 755
@@ -211,11 +222,13 @@ Apache 支持CGI 配置
 // CGI中使用Cookie
 
 // 文件上传实例
-~~~
+```
+
 
 
 * 网络编程
-~~~
+```
+
 两个级别访问的网络服务
 低级别的网络服务支持基本的 Socket，
 它提供了标准的 BSD Sockets API，
@@ -245,10 +258,12 @@ SMTP（Simple Mail Transfer Protocol）
 // 使用Python发送HTML格式的邮件
 // Python 发送带附件的邮件
 // 在 HTML 文本中添加图片
-~~~
+```
+
 
 * XML解析与JSON
-~~~
+```
+
 python有三种方法解析XML，
 SAX，DOM，以及ElementTree:
 
@@ -256,4 +271,5 @@ SAX用事件驱动模型，
 通过在解析XML的过程中触发一个个的事件
 并调用用户定义的回调函数来处理XML文件。
 
-~~~
+```
+

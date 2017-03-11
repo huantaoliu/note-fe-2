@@ -1,18 +1,23 @@
 #### **场景与光源**
 * 让IE支持webGL
 	*  [iewebgl](http://iewebgl.com/)
-~~~
+```
+
 Google Chrome Frame
-~~~
+```
+
 
 * 编辑器
 	* [c9.io](http://c9.io)
-~~~
+```
+
 WebStrom支持git
-~~~
+```
+
 
 * 服务器
-~~~
+```
+
 Python -- Unix/Mac
 Node.js+NPM -- HTTP Server
 Mongoose -- Mac/Windows移植 推荐
@@ -20,33 +25,41 @@ Mongoose -- Mac/Windows移植 推荐
 WebStrom
 对于(自己创建的域下)同名的文件会有本地保存，
 一直闹鬼的话浏览器手动清理下
-~~~
+```
+
 
 * 三维对象
-~~~
+```
+
 Plane 平面
 Cube 方块
 Sphere 球体
 Camera 相机 决定看到的输出结果
 Axes 轴 有助于调试
-~~~
+```
+
 
 * 不推荐Canvas和SVG？
-~~~
+```
+
 十分耗费CPU资源
 缺乏某些功能：例支持复杂材质和阴影
-~~~
+```
+
 
 * 一些与场景有关的函数
-~~~
+```
+
 Scene.Add()
 Scene.Remove()
 Scene.children() 获取场景中所有子对象的列表
 Sne.getChildByName()
-~~~
+```
+
 
 * 光的类型
-~~~
+```
+
 AmbientLight
 整体光 不需要指定位置
 不影响阴影生成
@@ -73,7 +86,8 @@ groundColor(地面发出的光线) Color(天空) intensity
 
 AreaLight 平面光
 不在标准库中 改用THREE.WebGLDeferredRender 延迟渲染器
-~~~
+```
+
 
 * 镜头眩光：朝着太阳拍照
 * THREE.Color对象
