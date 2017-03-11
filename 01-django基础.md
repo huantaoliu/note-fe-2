@@ -1,6 +1,7 @@
 #### **Django**
 * [Django安装](https://www.djangoproject.com/download/)
 	* [第一个django](https://docs.djangoproject.com/en/1.10/intro/tutorial01/)
+	
 ```
 
 pip install django
@@ -29,6 +30,7 @@ python manage.py runserver 0.0.0.0:8000
 ------------
 
 * 基础
+
 ```
 
 重量级 最广泛 最成熟
@@ -44,6 +46,7 @@ BSD版权
 ------------
 
 * Django模型层
+
 ```
 
 
@@ -51,6 +54,7 @@ BSD版权
 
 
 * Django视图层
+
 ```
 
 
@@ -58,6 +62,7 @@ BSD版权
 
 
 * Django表单
+
 ```
 
 
